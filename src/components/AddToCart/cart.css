@@ -1,0 +1,30 @@
+.myTable {
+  border: none;
+  width: 100%;
+  margin-top: 4vh;
+  font-size: 2vh;
+  }
+  
+  .myTable th {
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .myTable td {
+    text-align: right;
+  }       
+  .removeLinkDecoration
+  {
+    text-decoration: none;
+    color:#000;
+  }
+  .emptyCartContainer
+  {
+    text-align: center;
+  }
+  .emptyCartImg
+  {  
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vh;
+  }

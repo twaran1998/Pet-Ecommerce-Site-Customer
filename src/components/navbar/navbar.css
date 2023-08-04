@@ -1,0 +1,161 @@
+ .searchBar{
+    display: flex;
+    align-content: center;   
+    /* background-color: green;          */
+    border: 1px solid grey;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding:1vw;
+    width: 30%;
+    margin-right: 3%;
+    height: 7vh;
+ }
+ 
+ .searchResults {
+    position: absolute;
+    background-color: white;
+    width: auto;
+    height: auto;
+    color: black;
+    overflow-y: auto;
+    border: 0.5px solid #ccc;
+    border-radius: 3px;
+    z-index: 1000;
+    margin-top: 2.5em;
+    margin-left: -1em;
+  }
+  
+  .searchResult {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .searchResult:hover {
+    background-color: #EAEDED;
+  }
+
+  .loginWidgetContainer{
+    position: absolute;
+    margin-top: 65vh;
+    background-color: ghostwhite;
+    z-index: 1;
+  }
+ @media screen and (min-width:350px) and (max-width:400px) {
+    .searchBar{
+        /* display: block; */
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1%;
+        width: 98vw;
+        left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        /* border-radius: 3px 3px 10px 10px; */
+        left:0;
+        right:0;
+        height: 6vh;
+    }
+    .mobileSearchBar
+    {
+        display: block;
+    }
+    .swagimalLogo
+    {
+        padding-left: 22%;
+    }
+ }
+
+ @media screen and (min-width:401px) and (max-width:450px) {
+    .searchBar{
+        display: block;
+        position: absolute;
+        margin-top: 40%;
+        width: 100vw;
+        left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 3px 3px 10px 10px;
+        left:0;
+        right:0;
+    }
+    .mobileSearchBar
+    {
+        display: block;
+    }
+    .swagimalLogo
+    {
+        padding-left: 22%;
+    }
+ }
+
+ @media screen and (min-width:500px) and (max-width:600px) {
+
+    .searchBar{
+        display: block;
+        position: absolute;
+        margin-top: 42%;
+        width: 100vw;
+        left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 3px 3px 10px 10px;
+        left:0;
+        right:0;
+    }
+    .mobileSearchBar
+    {
+        display: block;
+    }
+    .swagimalLogo
+    {
+        padding-left: 22%;
+    }
+ }
+
+ @media screen and (min-width:650px) and (max-width:750px) {
+
+    .searchBar{
+        display: block;
+        position: absolute;
+        margin-top: 30%;
+        width: 100vw;
+        left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 3px 3px 10px 10px;
+        left:0;
+        right:0;
+    }
+    .mobileSearchBar
+    {
+        display: block;
+    }
+    .swagimalLogo
+    {
+        padding-left: 22%;
+    }
+ }
+
+ @media screen and (min-width:751px) and (max-width:850px) {
+
+    .searchBar{
+        display: block;
+        position: absolute;
+        margin-top: 22%;
+        width: 100vw;
+        left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 3px 3px 10px 10px;
+        left:0;
+        right:0;
+    }
+    .mobileSearchBar
+    {
+        display: block;
+    }
+    .swagimalLogo
+    {
+        padding-left: 22%;
+    }
+ }

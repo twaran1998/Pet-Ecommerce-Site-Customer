@@ -1,0 +1,22 @@
+.arrow-up {
+  width: 2vw;
+  height: 0px;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-bottom: 3vw solid #f8f8fe;
+  position: absolute;
+  right: 0;
+  top: -45px;
+}
+@media (max-width: 601px) {
+  .arrow-up {
+    width: 5vw;
+    height: 0px;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 3vw solid #f4f3f8;
+    position: absolute;
+    right: 13px;
+    top: -10px;
+  }
+}

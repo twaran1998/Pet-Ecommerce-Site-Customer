@@ -1,0 +1,51 @@
+.topSlideShow
+{
+    /* background-color: #dddde0; */
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    
+}
+.myslide
+{
+    height: 40vh;
+    object-fit: none;
+}
+ @media screen and (min-width:350px) and (max-width:400px) {
+    .topSlideShow
+    {
+        background-color: #dddde0;
+        width: 100%;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+.myslide
+{
+    height: 40vh;
+    object-fit: cover;
+}
+ }
+
+ @media screen and (min-width:401px) and (max-width:450px) {
+    .topSlideShow
+    {
+        background-color: #dddde0;
+        width: 100%;
+        margin: auto;
+        margin-top: 15%;
+    }
+ }
+
+ @media screen and (min-width:500px) and (max-width:600px) {
+
+ }
+
+ @media screen and (min-width:650px) and (max-width:750px) {
+
+ }
+
+ @media screen and (min-width:751px) and (max-width:850px) {
+
+ }

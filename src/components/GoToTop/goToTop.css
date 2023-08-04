@@ -1,0 +1,19 @@
+.go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #d48f36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .go-to-top-button.visible {
+    opacity: 1;
+  }
+  

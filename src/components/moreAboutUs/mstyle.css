@@ -1,0 +1,62 @@
+
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .redBg
+  {
+    background-color: #B82925;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  form {
+    max-Width: 600;
+    margin: "0 auto";
+    padding: 20;
+    background-Color: "#f2f2f2";
+    border-Radius: 10,
+  }
+  .form-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    width: "100%";
+    padding: 10;
+    border: "none";
+    border-Radius: 5;
+    box-Shadow: "0 0 5px rgba(0, 0, 0, 0.1)",
+  }
+   button {
+    display: "block";
+    width: "100%";
+    padding: 10;
+    background-color: "#007bff";
+    
+    color: "#fff";
+    border: "none";
+    border-radius: 5;
+    cursor: "pointer";
+  }
+
+  .moreAboutUs{
+    text-align: justify;
+  }
+  .moreAboutUs img{
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  @media (max-width: 601px) {
+/*    
+  .moreAboutUs img{
+    text-align: center;
+    width: 70vw;
+  } */
+  }

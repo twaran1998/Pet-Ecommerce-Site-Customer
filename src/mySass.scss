@@ -1,0 +1,42 @@
+// Sass => Syntactically Awesome Style Sheet
+
+// Basically write CSS with variables, save file as .scss and transpile code using some tool to convert to .css
+// Helps to avoid CSS repetition. DRY (Dont repeat yourself)
+
+
+// Variables start with $variabelName : value
+// Variables are {} scoped
+// !global makes a variable -> acessible everywhere
+
+// Define all global variables in _globals.scss fole and import with include variable
+
+// Allows us to nest CSS selectors same way as HTML
+// Example -> nav{
+                //     ul{}
+                //     li{}
+                //     ...etc
+                //  }   
+
+
+// Create a mixin for CSS throughout your website. Basically a function ; We can also pass variables to a mixin; Can have default values
+// Example -> @mixin important-text($color: defaultColorValue, $width:$defaultValue)
+
+// @mixin important-text
+// {
+//     color:red;
+//     font-size:22px
+// }
+
+// Use as :
+
+// danger{
+//     @include important-text;
+//     background-color:red;
+// }
+
+// @extend to extend a CSS 
+$myColor:red;
+
+.danger{
+    background-color: $myColor;
+}
